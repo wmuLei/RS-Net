@@ -1,5 +1,5 @@
 
-def Unet_Cross_ABSc1o9d(shape, classes=1):
+def RS_Net(shape, classes=1):
     inputs = Input(shape) # [512, 512, 3]
     pool1 = BatchNormalization()(inputs)
 
